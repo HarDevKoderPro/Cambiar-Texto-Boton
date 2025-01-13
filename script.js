@@ -1,6 +1,5 @@
 // Referencio Elementos del Dom
-const botonPruebas = document.querySelector(".botonPruebas");
-botonPruebas.style.cursor = 'pointer'; 
+const botonPruebas = document.getElementById("botonPruebas");
 
 // Funcion que cambia el texto del boton alternadamene
 function cambiarTextoBoton(){
