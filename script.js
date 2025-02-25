@@ -2,7 +2,7 @@
 const botonPruebas = document.getElementById("botonPruebas");
 
 // Funcion que cambia el texto del boton alternadamene
-function cambiarTextoBoton(){
+const cambiarTextoBoton = () =>{
   botonPruebas.textContent =
     botonPruebas.textContent === 'Mostrar'
     ? 'Ocultar'
